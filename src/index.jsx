@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { registerIonic } from '@ionic/react';
+import { setupConfig } from '@ionic/react';
 
 import terrain from './samples/terrain1.json';
 import samples from './samples/room1';
@@ -15,7 +15,7 @@ function start(_terrain, _samples) {
     );
 }
 
-registerIonic();
+setupConfig();
 
 start(terrain, samples);
 

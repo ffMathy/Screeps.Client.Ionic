@@ -1,0 +1,8 @@
+{
+  "name": "screeps",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "custom"
+}
